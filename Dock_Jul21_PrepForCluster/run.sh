@@ -25,6 +25,14 @@ then
   mkdir results
 fi
 
+export PATH="/sdcc/covid19/sw/conda-covid19/MGLToolsPckgs/bin/:$PATH"
+
+export PATH="/sdcc/covid19/sw/dock6/bin:$PATH"
+
+export AUTODOCKTOOLS_UTIL="/sdcc/covid19/sw/conda-covid19/MGLToolsPckgs/AutoDockTools/Utilities24/"
+
+export DOCK_HOME="/sdcc/covid19/sw/dock6/"
+
 #
 
 example.sh
