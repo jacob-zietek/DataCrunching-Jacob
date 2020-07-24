@@ -35,4 +35,4 @@ export DOCK_HOME="/sdcc/covid19/sw/dock6/"
 
 #
 
-example.sh
+./example.sh
